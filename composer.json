@@ -1,0 +1,9 @@
+{
+    "name": "quartero/prieto",
+    "description": "Trabajo practico de IS2",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
