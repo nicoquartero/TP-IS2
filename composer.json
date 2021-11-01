@@ -1,8 +1,14 @@
 {
-    "name": "quartero/prieto",
-    "description": "Trabajo practico de IS2",
+    "name": "prieto/quartero",
+    "description": "TP Final Integrador",
     "type": "project",
     "license": "GPL",
+    "authors": [
+        {
+            "name": "Mauro",
+            "email": "mauro.r.prieto@gmail.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^9.5"
     },
