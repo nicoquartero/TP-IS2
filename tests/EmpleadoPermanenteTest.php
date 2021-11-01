@@ -57,15 +57,6 @@ class EmpleadoPermanenteTest extends EmpleadoTest
 		$this->assertEquals(70000 + (70000 * (8 / 100)),$ep->calcularIngresoTotal());
 	}
 
-
-	//Generando error en el test para probar la interaccion continua con git
-	public function testcalcularIngresoTotal()
-	{
-		$fechaIngreso = new DateTime('2013-03-01 00:00:00');
-		$ep = $this->crearE_Permanente("Nicolas","Prieto",36207505,70000,$fechaIngreso);
-		$this->assertEquals(70000 + (70000 * (8 / 10)),$ep->calcularIngresoTotal());
-	}
-
 }
 
 ?>
